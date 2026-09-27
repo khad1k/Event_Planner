@@ -2,16 +2,18 @@ import './App.css'
 import Welcome from './pages/Welcome'
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import ResponsiveAppBar from './components/Header'
 import Footer from './components/Footer'
+import Events from './pages/Events'
+import ButtonAppBar from './components/Header'
 
 function App() {
   return (
     <>
       <BrowserRouter>
-        <ResponsiveAppBar />
+        <ButtonAppBar />
         <Routes>
-          <Route path='/Welcome' element={<Welcome />}/>
+          <Route path='/welcome' element={<Welcome />}/>
+          <Route path='/events' element={<Events />}/>
         </Routes>
         <Footer />
       </BrowserRouter>
