@@ -14,7 +14,7 @@ export default function ButtonAppBar() {
         <Toolbar>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
             <Button disableRipple
-              component={Link} to='/welcome' color="inherit" sx={{
+              component={Link} to='/' color="inherit" sx={{
               padding: '10px',
               fontSize: 40,
               fontWeight: 600,

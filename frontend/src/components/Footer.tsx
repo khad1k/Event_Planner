@@ -8,11 +8,12 @@ const Footer = () => {
       <Box
         id="link"
         sx={{
-          margin: '20%',
-          marginTop: 0,
-          display: 'flex',
-          justifyContent: 'space-between',
-        }}
+            padding: '20px',
+            paddingTop: 0,
+            mx: '20%',
+            display: 'flex',
+            justifyContent: 'space-between',
+            }}
       >
         <Link href="https://t.me/SLK_khadik" underline="hover">
           telegram
