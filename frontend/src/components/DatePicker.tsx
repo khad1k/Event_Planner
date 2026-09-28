@@ -25,13 +25,13 @@ export default function ClearableProp() {
       <Box
         sx={{
           width: '100%',
-          height: '100%',
+          
           display: 'flex',
           justifyContent: 'center',
           position: 'relative',
         }}
       >
-        <DemoItem label="DesktopDatePicker">
+        <DemoItem label="Выберите дату">
           <DesktopDatePicker
             sx={{ width: 260 }}
             slotProps={{

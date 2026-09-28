@@ -19,7 +19,7 @@ const Footer = () => {
           telegram
         </Link>
 
-        <Link href="https://github.com/khadlk" underline="hover">
+        <Link href="https://github.com/khad1k/Event_Planner" underline="hover">
           github
         </Link>
 

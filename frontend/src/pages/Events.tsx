@@ -4,7 +4,7 @@ import MediaCard from "../components/Card"
 const Events = () => {
     return (
         <>
-        <div id='events'>    
+        <div className="container">    
             <h1>Выберите мероприятие</h1>
             <AutocompleteHint />
             <div id='cardlist'>
